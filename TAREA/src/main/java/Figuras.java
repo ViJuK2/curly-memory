@@ -55,78 +55,78 @@ public class Figuras{
             for(int x=0;x<=1-ve;x++){//rellenar el vacio
                 System.out.print(" .");
             }
-            for(int r=0;r<=ve;r++){//triangulo del lado izquierdo
+            for(int r=0;r<=ve;r++){// lado izquierdo del corazon
                 System.out.print(" *");
             }
-            for(int re=1; re<=1; re++ ){//cuadrado
+            for(int re=1; re<=1; re++ ){//cuadrado del relleno del corazon
                 System.out.print(" *");
             }
-            for (int z=0;z<=ve;z++){//triangulo del lado derecho
+            for (int z=0;z<=ve;z++){// lado derecho  del corazon
                 System.out.print(" *");
             }
-            for(int w=0;w<=2;w++) {//triangulo del lado izquierdo
+            for(int w=0;w<=2;w++) {// relleno
                 System.out.print(" .");
             }
-            for(int w=0;w<=ve;w++){//triangulo del lado izquierdo 2
+            for(int w=0;w<=ve;w++){//lado izquierdo 2  del corazon
                 System.out.print(" *");
             }
-            for(int re=1; re<=1; re++ ){//cuadrado
+            for(int re=1; re<=1; re++ ){//cuadrado del relleno del corazon
                 System.out.print(" *");
             }
-            for (int z=0;z<=ve;z++){//triangulo del lado derecho
+            for (int z=0;z<=ve;z++){// lado derecho del corazon
                 System.out.print(" *");
             }
-            for(int w=0;w<=1;w++) {//triangulo del lado izquierdo
+            for(int w=0;w<=1;w++) {//relleno
                 System.out.print(" .");
             }
 
             System.out.println("");
         }
         for (int ve = 0; ve<=0;ve++){
-            for(int x=0;x<=-ve;x++){//rellenar el vacio
+            for(int x=0;x<=-ve;x++){//relleno
             System.out.print(" .");
              }
             for(int r=0;r<=ve;r++){//triangulo del lado izquierdo
             System.out.print(" *");
              }
-            for(int re=1; re<=3; re++ ){//cuadrado
+            for(int re=1; re<=3; re++ ){//cuadrado de relleno
             System.out.print(" *");
             }
             for (int z=0;z<=ve;z++){//triangulo del lado derecho
             System.out.print(" *");
             }
-            for(int w=0;w<=-ve;w++) {//triangulo del lado izquierdo
+            for(int w=0;w<=-ve;w++) {//relleno
             System.out.print(" .");
             }
             for(int w=0;w<=ve;w++){//triangulo del lado izquierdo 2
             System.out.print(" *");
              }
-            for(int re=1; re<=3; re++ ){//cuadrado
+            for(int re=1; re<=3; re++ ){//cuadrado del relleno del corazon
             System.out.print(" *");
             }
             for (int z=0;z<=ve;z++){//triangulo del lado derecho
             System.out.print(" *");
             }
-            for(int w=0;w<=-ve;w++) {//triangulo del lado izquierdo
+            for(int w=0;w<=-ve;w++) {//relleno
             System.out.print(" .");
             }
         System.out.println("");
         }
-        for (int v = 0; v<=2;v++){//relleno de la parte superior del corazon
-            for(int pu=0; pu<=12; pu++ ){//relleno de la parte superior del corazon
+        for (int v = 0; v<=2;v++){//relleno del  corazon
+            for(int pu=0; pu<=12; pu++ ){//relleno del corazon
                 System.out.print(" *");
 
             }
             System.out.println("");
         }
-        for (int y=0;y<=5;y++){//altura del triangulo del pino
+        for (int y=0;y<=5;y++){//altura del triangulo invertido de la base del corazon
             for(int x=0;x<=y;x++){//rellenar el vacio
                 System.out.print(" .");
             }
-            for(int w=0;w<=5-y;w++){//triangulo del lado izquierdo
+            for(int w=0;w<=5-y;w++){//triangulo invertido del lado izquierdo
                 System.out.print(" *");
             }
-            for(int w=0;w<=4-y;w++){//triangulo del lado izquierdo
+            for(int w=0;w<=4-y;w++){//triangulo invertido del lado derecho
                 System.out.print(" *");
             }
             for(int x=0;x<=y-0;x++){//rellenar el vacio
